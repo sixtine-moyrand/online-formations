@@ -1,0 +1,139 @@
+body{
+	font-family: 'Playfair Display', serif; ;
+	color: #172a3a;
+	font-size: 18 px;
+	background-color: #ccd5e1;
+	letter-spacing: 1px;
+	margin: 0px;
+}
+
+h1,h2,h3 {
+	font-family:'Montserrat', sans-serif;
+	font-weight: bolder;
+}
+h1{
+	color: #F84943;
+	font-size: 32px;
+}
+h2{
+	color: #508991;
+	font-size: 26px;
+}
+
+/*Links and change of color*/
+a{
+	text-decoration: none;
+	color: #004346;
+	letter-spacing: 3px;
+}
+a:hover{
+	color: #de541e;
+}
+
+/*Lists and bullet points*/
+ul{
+	font-weight: lighter;
+	font-size: 18px;
+}
+
+
+/* Custom design (99% of the design) */
+.container {
+	width: 800px;
+	margin: 80px;
+}
+
+@media (max-width: 760px){
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px){
+	.container {
+		width: 400px;
+		margin: 20px;
+	}
+}
+
+.card-white {
+	padding: 30px;
+	margin: 30px;
+    background: #f0edee;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px rgb(0,0,0,0.2);
+    text-align: center;
+}
+
+.list-inline li {
+	padding: 10px;
+	list-style: none;
+}
+.btn-ocre{
+	background-color: #F84943;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: white;
+}
+
+.btn-ocre:hover{
+	background-color: black;
+	color: white;
+}
+
+
+/*Banner (and everything that go with it)*/
+#h2-banner{
+	color: #85D4DF;
+}
+.banner{
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0, 0, 0, 0.2)), url(../images/banner.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 0px;
+	color: white;
+	padding: 60px;
+}
+
+.banner h1 {
+	font-size: 50px;
+}
+
+.banner h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	margin-bottom: 40px;
+}
+
+/*Card (differents options)*/
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 40px;
+}
+
+.card{
+	background-color: white;
+	padding: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+	margin: 20px;
+	flex-basis: 250px;
+	flex-grow: 1;
+}
+
+.card img {
+	width: 150px;
+	border-radius: 6px;
+}
+
+.card h3 {
+	flex-grow: 1;
+	padding-left: 20px;
+	padding-right: 20px;
+	front-size: 18px;
+}
+
